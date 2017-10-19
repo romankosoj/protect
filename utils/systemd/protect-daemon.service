@@ -1,0 +1,17 @@
+[Unit]
+Description=Protect Full Node
+After=network.target
+
+[Service]
+User=protect
+Group=protect
+WorkingDirectory=~
+
+Type=forking
+PIDFile=/var/run/protect-daemon.pid
+
+ExecStart=/usr/bin/protect-daemon --config-file /etc/protect-daemon.conf \
+    --detach --pidfile /var/run/protect-daemon.pid
+
+[Install]
+WantedBy=multi-user.target
