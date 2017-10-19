@@ -30,9 +30,9 @@ Protect development can be supported directly through donations.
 
 Both Protect and Bitcoin donations can be made to donate.protect.sc if using a client that supports the [OpenAlias](https://openalias.org) standard
 
-The Protect donation address is: `FVenwHvgnjB6cwT6jtYUomQkMmb4qnGVCVx7YGvasctbhLibVBmTPsCHAnPs22h6c5incLZNFE1hmFpdBbFgJvZMMNyTemf` (viewkey: `70398e32f69cdf0cbe9760768c6aeb9557179261e0d1a71e737a4bc4eb307b07`)
+The Protect donation address is: `FQR8kN2TdNU8wQH2QVMpUvFNsUKK1vC44QLWMrj332fM7BXvT72eZm32oKUVWiBPtCd5MpJBkjiyU7SK6acSZ95g65jqjLw`
 
-The Monero donation address is: `4A57eA3so6bEE8FUcaN1KtMXD3sxjjbvcKD3MF1pUgRi5PNHTpB7sYN2DmJv3EXxtZCWeG88tsVLzdfZJcmUFm52SbrfJWr` (viewkey: `c7a7c141581ac4436ba8bfb81dd67234720c565c696ef154a25c7e7314ce4b08`)
+The Monero donation address is: `44cfzgytFor4Rsm5CMqTvM22aaewRYjm6i4vdTGVkS7aU81zMVyh1fNCWTxMUok4mUHLC8VSXUAaEcZh35kTRVEVMoNVrmJ`
 
 The Bitcoin donation address is: `13iDRvXu7i8F1wmQSoEeWSGPjdPSKRW71t`
 

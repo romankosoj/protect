@@ -2949,7 +2949,7 @@ bool simple_wallet::donate(const std::vector<std::string> &args_)
      return true;
   }
   std::string ring_size_str;
-  const std::string address_str = "FVenwHvgnjB6cwT6jtYUomQkMmb4qnGVCVx7YGvasctbhLibVBmTPsCHAnPs22h6c5incLZNFE1hmFpdBbFgJvZMMNyTemf";
+  const std::string address_str = "FQR8kN2TdNU8wQH2QVMpUvFNsUKK1vC44QLWMrj332fM7BXvT72eZm32oKUVWiBPtCd5MpJBkjiyU7SK6acSZ95g65jqjLw";
   std::string amount_str;
   std::string payment_id_str;
   // check payment id
@@ -2968,7 +2968,7 @@ bool simple_wallet::donate(const std::vector<std::string> &args_)
   local_args.push_back(amount_str);
   if (!payment_id_str.empty())
     local_args.push_back(payment_id_str);
-  message_writer() << tr("Donating ") << amount_str << " MSR to The Protect Security Coin (donate.protect.sc/FVenwHvgnjB6cwT6jtYUomQkMmb4qnGVCVx7YGvasctbhLibVBmTPsCHAnPs22h6c5incLZNFE1hmFpdBbFgJvZMMNyTemf).";
+  message_writer() << tr("Donating ") << amount_str << " MSR to The Protect Security Coin (donate.protect.sc/FQR8kN2TdNU8wQH2QVMpUvFNsUKK1vC44QLWMrj332fM7BXvT72eZm32oKUVWiBPtCd5MpJBkjiyU7SK6acSZ95g65jqjLw).";
   transfer(local_args);
   return true;
 }

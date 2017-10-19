@@ -36,7 +36,7 @@
 
 TEST(AddressFromTXT, Success)
 {
-  std::string addr = "FVenwHvgnjB6cwT6jtYUomQkMmb4qnGVCVx7YGvasctbhLibVBmTPsCHAnPs22h6c5incLZNFE1hmFpdBbFgJvZMMNyTemf";
+  std::string addr = "FQR8kN2TdNU8wQH2QVMpUvFNsUKK1vC44QLWMrj332fM7BXvT72eZm32oKUVWiBPtCd5MpJBkjiyU7SK6acSZ95g65jqjLw";
 
   std::string txtr = "oa1:msr";
   txtr += " recipient_address=";
@@ -83,7 +83,7 @@ TEST(AddressFromTXT, Failure)
 
 TEST(AddressFromURL, Success)
 {
-  const std::string addr = "FVenwHvgnjB6cwT6jtYUomQkMmb4qnGVCVx7YGvasctbhLibVBmTPsCHAnPs22h6c5incLZNFE1hmFpdBbFgJvZMMNyTemf";
+  const std::string addr = "FQR8kN2TdNU8wQH2QVMpUvFNsUKK1vC44QLWMrj332fM7BXvT72eZm32oKUVWiBPtCd5MpJBkjiyU7SK6acSZ95g65jqjLw";
 
   bool dnssec_result = false;
 
